@@ -1,0 +1,33 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: #0b0423;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#left,#right{
+    width: 300px;
+    min-height: 400px;
+    margin: 20px;
+    border: 2px dashed #fff;
+}
+
+.img1{
+    width: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+.list{
+    background: #e91263;
+    height: 60px;
+    margin: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+}
